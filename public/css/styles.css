@@ -1,0 +1,44 @@
+
+
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  font-size: 19px;
+}
+
+.header {
+  
+  background-color: black;
+}
+
+.headerContainer {
+  float: right;
+}
+
+.logo {  
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+.logo, li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 33px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
